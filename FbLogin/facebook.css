@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 5px 0px 5px;
+    margin-left: 50px;
+    border-radius: 5px; 
+}
+
+
+.title-box{
+    width: 500px;
+    margin-left: 20px;
+}
+
+.title-box img{
+    width: 340px;
+    margin-bottom: -10px;
+}
+
+.title-box p{
+    color: #000;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+    text-align: left;
+}
+
+.form-box{
+    width: 380px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 60px;
+    box-shadow: 5px 5px 6px -7px rgba(71, 71, 71, 0.52);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 320px;
+}
+
+.form-box input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-box input:focus{
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+
+.form-box button{
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background:  #1877f2;
+}
+
+.form-box a{
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-box a:hover{
+    text-decoration: underline;
+}
+
+.form-box hr{
+    border: 1px solid #dadde1;
+    margin-bottom: 15px;
+}
+
+.form-box .create-btn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #42b72a;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-box .create-btn a:hover{
+    background:#36a420;
+}
+
+.form-box .sub-link {
+    font-size: 13px;
+    margin-top: 40px;
+    align-items: center;
+    
+}
+
+.form-box .sub-link a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.form-box .sub-link a:hover{
+    text-decoration: underline;
+}
